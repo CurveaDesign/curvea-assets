@@ -26,7 +26,7 @@ Assets in this repository are meant to be **referenced directly** in projects us
   src="https://raw.githubusercontent.com/CurveaDesign/curvea-assets/main/logos/curvea-logo-neutral-dark.svg"
   alt="Curvea"
 />
-
+```
 
 ## License
 
