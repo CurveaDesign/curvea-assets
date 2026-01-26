@@ -1,19 +1,34 @@
 # Curvea Assets
 
-Centralized brand and design assets for Curvea projects.
+Official brand and design assets used across the Curvea ecosystem.
+
+This repository acts as the **single source of truth** for all shared Curvea visual assets and is intended for internal use across Curvea products and websites.
+
+---
 
 ## Purpose
-This repository is the single source of truth for Curvea visual assets.
 
-## Usage rules
-- Default logo for products and dashboards: neutral logo
-- Gradient / primary logo is reserved for Curvea Design marketing
-- Do not recolor logos via CSS
-- Do not duplicate assets across projects
+- Centralize Curvea brand assets in one place
+- Ensure visual consistency across all Curvea products
+- Avoid asset duplication between projects
+- Provide stable, reusable asset URLs for production use
 
-## Structure
-- /logos → official Curvea logos
-- /favicons → favicon assets
-- /wordmarks → text-based brand variants
-- /icons → UI and social icons
-- /gradients → official brand gradients
+---
+
+## Usage
+
+Assets in this repository are meant to be **referenced directly** in projects using their raw GitHub URLs.
+
+### Example
+
+```html
+<img
+  src="https://raw.githubusercontent.com/CurveaDesign/curvea-assets/main/logos/curvea-logo-neutral-dark.svg"
+  alt="Curvea"
+/>
+
+
+## License
+
+All assets in this repository are proprietary and owned by Curvea Design.  
+Unauthorized use, redistribution, or modification is not permitted.
